@@ -12,6 +12,28 @@ export default {
             name: 'content',
             type: 'text',
             title: 'Content'
+        },
+        {
+            name: 'experience',
+            type: 'array',
+            title: 'Array for experience',
+            of: [
+                {
+                    type: 'object',
+                    name: 'experience',
+                    fields: [
+                        {
+                            type: 'string', name:'duration'
+                        },
+                        {
+                            type: 'string', name:'company'
+                        },
+                        {
+                            type: 'string', name:'position'
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
