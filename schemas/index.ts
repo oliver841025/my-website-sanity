@@ -1,4 +1,4 @@
 import info from './info'
-import kickscrew from './website/kickscrew'
+import website from './website'
 
-export const schemaTypes = [info, kickscrew]
+export const schemaTypes = [info, website]
