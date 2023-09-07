@@ -32,5 +32,38 @@ export default {
                 }
             ]
         },
+        {
+            name: 'array_of_posters',
+            type: 'array',
+            title: 'Array of posters',
+            of: [
+                {
+                    type: 'object',
+                    name: 'posters',
+                    fields: [
+                        {
+                            title: 'Poster',
+                            name: 'poster',
+                            type: 'image',
+                            options: {
+                              hotspot: true // <-- Defaults to false
+                            },
+                            fields: [
+                              {
+                                name: 'caption',
+                                type: 'string',
+                                title: 'Caption',
+                              },
+                              {
+                                name: 'attribution',
+                                type: 'string',
+                                title: 'Attribution',
+                              }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
     ]
 }
