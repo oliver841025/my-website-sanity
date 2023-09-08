@@ -1,7 +1,7 @@
 export default {
-    name: 'website',
+    name: 'graphic',
     type: 'document',
-    title: 'Website',
+    title: 'Graphic',
     fields: [
         {
             name: 'name',
@@ -9,13 +9,13 @@ export default {
             title: 'Name'
         },
         {
-            name: 'website',
+            name: 'graphic',
             type: 'array',
             title: 'Array of websites',
             of: [
                 {
                     type: 'object',
-                    name: 'website',
+                    name: 'graphic',
                     fields: [
                         {
                             name: 'name',

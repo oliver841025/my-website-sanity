@@ -1,7 +1,7 @@
 export default {
-    name: 'website',
+    name: 'motion',
     type: 'document',
-    title: 'Website',
+    title: 'Motion',
     fields: [
         {
             name: 'name',
@@ -9,13 +9,13 @@ export default {
             title: 'Name'
         },
         {
-            name: 'website',
+            name: 'motion',
             type: 'array',
-            title: 'Array of websites',
+            title: 'Array of motions',
             of: [
                 {
                     type: 'object',
-                    name: 'website',
+                    name: 'motion',
                     fields: [
                         {
                             name: 'name',
