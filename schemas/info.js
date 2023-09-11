@@ -34,6 +34,25 @@ export default {
                     ]
                 }
             ]
-        }
+        },
+        {
+            name: 'avatar',
+            type: 'array',
+            title: 'Array of avatars',
+            of: [
+                {
+                    type: 'object',
+                    name: 'avatar',
+                    options: {
+                        hotspot: true // <-- Defaults to false
+                    },
+                    fields: [
+                        {
+                            type: 'image', name: 'avatar'
+                        },
+                    ]
+                }
+            ]
+        },
     ]
 }
