@@ -50,6 +50,11 @@ export default {
                         {
                             type: 'image', name: 'avatar'
                         },
+                        {
+                            name: 'caption',
+                            type: 'string',
+                            title: 'Caption',
+                        },
                     ]
                 }
             ]

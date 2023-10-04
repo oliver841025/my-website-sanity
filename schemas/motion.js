@@ -14,6 +14,11 @@ export default {
             title: 'Description'
         },
         {
+            name: 'link',
+            type: 'string',
+            title: 'Link'
+        },
+        {
             name: 'whatIHaveDone',
             type: 'array',
             title: 'Array of what I have done',

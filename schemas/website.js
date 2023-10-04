@@ -14,6 +14,11 @@ export default {
             title: 'Description'
         },
         {
+            name: 'link',
+            type: 'string',
+            title: 'Link'
+        },
+        {
             name: 'whatIHaveDone',
             type: 'array',
             title: 'Array of what I have done',
@@ -25,10 +30,12 @@ export default {
                         {
                             type: 'string',
                             name: 'task_title',
+                            title: 'Task_title'
                         },
                         {
                             type: 'text',
                             name: 'task_description',
+                            title: 'Task_description'
                         }
                     ]
                 }

@@ -14,6 +14,11 @@ export default {
         title: 'Description',
       },
       {
+        name: 'link',
+        type: 'string',
+        title: 'Link'
+      },
+      {
         name: 'whatIHaveDone',
         type: 'array',
         title: 'Array of what I have done',
@@ -39,34 +44,28 @@ export default {
         type: 'array',
         title: 'Array of posters',
         of: [
-          {
-            type: 'object',
-            name: 'posters',
-            fields: [
-              {
+            {
                 title: 'Poster',
                 name: 'poster',
                 type: 'image',
                 options: {
-                  hotspot: true, // <-- Defaults to false
+                    hotspot: true, // <-- Defaults to false
                 },
                 fields: [
-                  {
-                    name: 'caption',
-                    type: 'string',
-                    title: 'Caption',
-                  },
-                  {
-                    name: 'attribution',
-                    type: 'string',
-                    title: 'Attribution',
-                  },
-                ],
-              },
-            ],
-          },
-        ],
-      },
+                    {
+                        name: 'caption',
+                        type: 'string',
+                        title: 'Caption',
+                    },
+                    {
+                        name: 'attribution',
+                        type: 'string',
+                        title: 'Attribution',
+                    }
+                ]
+            }
+        ]
+    }
     ],
     preview: {
       select: {
