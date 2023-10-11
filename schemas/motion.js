@@ -19,6 +19,11 @@ export default {
             title: 'Link'
         },
         {
+            name: 'embedSrc',
+            type: 'string',
+            title: 'EmbedSrc'
+        },
+        {
             name: 'whatIHaveDone',
             type: 'array',
             title: 'Array of what I have done',
